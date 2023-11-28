@@ -5,6 +5,7 @@ import facebookIcon from "../assets/facebook-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
 import twitterIcon from "../assets/twitter-icon.svg";
 import youtubeIcon from "../assets/youtube-icon.svg";
+import abou from "../assets/abou.jpg"
 
 // components
 import { SocialMediaIcon, Reveal } from "../components";
@@ -44,10 +45,7 @@ const About = () => {
 
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Reiciendis incidunt quis praesentium voluptates et cupiditate
-              minus rem. Voluptatibus ullam beatae expedita voluptatum error,
-              voluptate deserunt impedit similique fuga recusandae sit.
+            Greetings! I'm Ejaz Alam, a dedicated React developer specializing in JavaScript, TypeScript, and proficient in HTML and CSS. With a keen eye for design and expertise in Tailwind CSS, I bring ideas to life, creating seamless and engaging web experiences. Let's collaborate to turn your vision into a digital reality!
             </p>
           </Reveal>
 
@@ -59,10 +57,10 @@ const About = () => {
             viewport={{ once: false }}
             className="flex items-center justify-center xl:justify-start gap-6"
           >
-            <SocialMediaIcon imgSrc={facebookIcon} title="Facebook" />
-            <SocialMediaIcon imgSrc={instagramIcon} title="Instagram" />
-            <SocialMediaIcon imgSrc={twitterIcon} title="Twitter" />
-            <SocialMediaIcon imgSrc={youtubeIcon} title="YouTube" />
+            <SocialMediaIcon imgSrc={facebookIcon} title="Facebook"  link="https://www.facebook.com/profile.php?id=100010796734220"/>
+            <SocialMediaIcon imgSrc={instagramIcon} title="Instagram" link="https://www.instagram.com/ejax_alam/" />
+            <SocialMediaIcon imgSrc={twitterIcon} title="Twitter" link="" />
+            <SocialMediaIcon imgSrc={youtubeIcon} title="YouTube"  link="https://www.youtube.com/channel/UClT8qO4aYK-zEpOFOO-6czQ"/>
           </motion.div>
         </div>
 
@@ -73,7 +71,7 @@ const About = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false }}
-            src={aboutIllustration}
+            src={abou}
             alt=""
             className="max-w-full sm:max-w-[401px]"
           />

@@ -2,6 +2,7 @@
 import homePageImg from "../assets/home-page.svg";
 import homePageIllustation from "../assets/hero-illustration.svg";
 import downloadIcon from "../assets/download-btn-icon.svg";
+import my from "../assets/my.png"
 
 // components
 import { Button } from "../components";
@@ -46,7 +47,7 @@ const Hero = () => {
             <br />
             <span className="text-secondary">
               <Typewriter
-                words={["Developer", "Designer", "YouTuber"]}
+                words={["Developer", "Designer"]}
                 cursor
                 cursorStyle="_"
                 typeSpeed={250}
@@ -74,9 +75,9 @@ const Hero = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false }}
-          src={homePageIllustation}
+          src={my}
           alt=""
-          className="max-w-full sm:max-w-[401px]"
+          className="max-w-full sm:max-w-[401px] rounded-full"
         />
       </div>
 

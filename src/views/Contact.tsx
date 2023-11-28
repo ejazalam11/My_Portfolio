@@ -1,6 +1,7 @@
 // assets
 import contactPageImg from "../assets/contact-page.svg";
 import contactIllustration from "../assets/contact-illustration.svg";
+import about from "../assets/abou.jpg"
 
 // components
 import { Button, LabelInput, Reveal } from "../components";
@@ -44,7 +45,7 @@ const Contact = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false }}
-            src={contactIllustration}
+            src={about}
             alt=""
             className="max-h-[348px]"
           />
