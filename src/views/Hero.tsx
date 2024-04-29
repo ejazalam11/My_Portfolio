@@ -6,7 +6,7 @@ import homePageIllustation from "../assets/hero-illustration.svg";
 //@ts-ignore
 import downloadIcon from "../assets/download-btn-icon.svg";
 //@ts-ignore
-import my from "../assets/my.png"
+import my from "../assets/my.png";
 
 // components
 import { Button } from "../components";
@@ -52,7 +52,7 @@ const Hero = () => {
             <br />
             <span className="text-secondary">
               <Typewriter
-                words={["Developer", "Designer"]}
+                words={["Developer", "Designer", "Blogger"]}
                 cursor
                 cursorStyle="_"
                 typeSpeed={250}
@@ -70,7 +70,9 @@ const Hero = () => {
             className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start"
           >
             <Button secondary>Hire me</Button>
-            <Button icon={downloadIcon}>Download CV</Button>
+            <a>
+              <Button icon={downloadIcon}>Download CV</Button>
+            </a>
           </motion.div>
         </div>
 
