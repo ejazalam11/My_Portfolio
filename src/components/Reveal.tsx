@@ -10,6 +10,7 @@ import { reveal } from "../utils/variants";
 
 interface RevealProps {
   children: ReactNode;
+  
 }
 
 const Reveal: FC<RevealProps> = ({ children }) => {

@@ -1,13 +1,18 @@
 // assets
+//@ts-ignore
 import homePageImg from "../assets/home-page.svg";
+//@ts-ignore
 import homePageIllustation from "../assets/hero-illustration.svg";
+//@ts-ignore
 import downloadIcon from "../assets/download-btn-icon.svg";
+//@ts-ignore
 import my from "../assets/my.png"
 
 // components
 import { Button } from "../components";
 
 // react-simple-typewriter
+//@ts-ignore
 import { Typewriter } from "react-simple-typewriter";
 
 // framer-motion
