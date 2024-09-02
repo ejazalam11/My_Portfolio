@@ -69,10 +69,25 @@ const Hero = () => {
             viewport={{ once: false }}
             className="my-12 flex flex-col sm:flex-row items-center gap-6 justify-center xl:justify-start"
           >
-            <Button secondary>Hire me</Button>
-            <a>
-              <Button icon={downloadIcon}>Download CV</Button>
-            </a>
+            <Button secondary>
+              <a
+                href="https://www.fiverr.com/ejazalam259?up_rollout=true"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hire me
+              </a>
+            </Button>
+
+            <Button icon={downloadIcon}>
+              <a
+                href="https://drive.google.com/file/d/1CJck6I3kLsGiHnPyr3xkfqR0frkHEuj3/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download CV
+              </a>
+            </Button>
           </motion.div>
         </div>
 
