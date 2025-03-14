@@ -33,7 +33,7 @@ const About = () => {
         className="max-w-screen-2xl flex flex-col xl:flex-row xl:justify-between
           items-center xl:items-start gap-12 w-full py-16 px-11"
       >
-        <div className="flex-1 flex flex-col gap-4">
+        <div className="flex-1 flex flex-col gap-2">
           <Reveal>
             <h2
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
