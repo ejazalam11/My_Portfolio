@@ -37,7 +37,7 @@ const About = () => {
           <Reveal>
             <h2
               className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
-              font-bold text-textPrimary"
+              font-semibold text-textPrimary"
             >
               About <span className="text-secondary"> me</span>
             </h2>
