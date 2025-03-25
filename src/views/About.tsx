@@ -73,7 +73,7 @@ const About = () => {
             viewport={{ once: false }}
             src={abou}
             alt=""
-            className="max-w-full sm:max-w-[401px]"
+            className="max-w-full sm:max-w-[402px]"
           />
         </div>
       </div>
