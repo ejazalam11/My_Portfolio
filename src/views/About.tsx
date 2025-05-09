@@ -5,7 +5,7 @@ import facebookIcon from "../assets/facebook-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
 import twitterIcon from "../assets/twitter-icon.svg";
 import youtubeIcon from "../assets/youtube-icon.svg";
-import abou from "../assets/abou.jpg"
+import about from "../assets/abou.jpg"
 
 // components
 import { SocialMediaIcon, Reveal } from "../components";
@@ -20,7 +20,7 @@ import { transition } from "../utils/transition";
 const About = () => {
   return (
     <div
-      id="about"
+      id="AABOUT"
       className="min-h-screen flex items-center justify-center relative"
       style={{
         background: `url(${aboutPageImg})`,
@@ -71,9 +71,9 @@ const About = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false }}
-            src={abou}
+            src={about}
             alt=""
-            className="max-w-full sm:max-w-[401px]"
+            className="max-w-full sm:max-w-[501px] rounded-lg"
           />
         </div>
       </div>
