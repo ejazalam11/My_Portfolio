@@ -5,7 +5,7 @@ import facebookIcon from "../assets/facebook-icon.svg";
 import instagramIcon from "../assets/instagram-icon.svg";
 import twitterIcon from "../assets/twitter-icon.svg";
 import youtubeIcon from "../assets/youtube-icon.svg";
-import abou from "../assets/abou.jpg"
+import about from "../assets/abou.jpg"
 
 // components
 import { SocialMediaIcon, Reveal } from "../components";
@@ -20,7 +20,7 @@ import { transition } from "../utils/transition";
 const About = () => {
   return (
     <div
-      id="about"
+      id="AABOUT"
       className="min-h-screen flex items-center justify-center relative"
       style={{
         background: `url(${aboutPageImg})`,
@@ -36,8 +36,12 @@ const About = () => {
         <div className="flex-1 flex flex-col gap-2">
           <Reveal>
             <h2
-              className="text-center xl:text-start text-4xl sm:text-5xl lg:text-[64px] 
-              font-semibold text-textPrimary"
+
+              className="text-center xl:text-start text-4xl sm:text-4xl lg:text-[64px] 
+              font-bold text-textPrimary"
+
+
+
             >
               About <span className="text-secondary"> me</span>
             </h2>
@@ -71,9 +75,9 @@ const About = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: false }}
-            src={abou}
+            src={about}
             alt=""
-            className="max-w-full sm:max-w-[401px]"
+            className="max-w-full sm:max-w-[501px] rounded-lg"
           />
         </div>
       </div>
