@@ -49,8 +49,7 @@ const About = () => {
 
           <Reveal>
             <p className="text-center xl:text-start text-base sm:text-lg text-textSecondary">
-            Greetings! I'm Ejaz Alam, a dedicated React developer specializing in JavaScript, TypeScript, and proficient in HTML and CSS. With a keen eye for design and expertise in Tailwind CSS, I bring ideas to life, creating seamless and engaging web experiences. Let's collaborate to turn your vision into a digital reality!
-            </p>
+            Greetings! I'm Ejaz Alam, a passionate Front-End Developer with 4 years of experience specializing in React, Vue, Svelte, Next.js, and Nuxt.js. Proficient in JavaScript, TypeScript, HTML, and CSS, I leverage my expertise in Tailwind CSS to craft visually stunning and highly functional web applications. Let's collaborate to transform your ideas into dynamic, user-focused digital experiences!            </p>
           </Reveal>
 
           <motion.div
