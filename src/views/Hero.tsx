@@ -6,7 +6,7 @@ import homePageIllustation from "../assets/hero-illustration.svg";
 //@ts-ignore
 import downloadIcon from "../assets/download-btn-icon.svg";
 //@ts-ignore
-import my from "../assets/my.png";
+import IAm from "../assets/IAm.jpeg";
 
 // components
 import { Button } from "../components";
@@ -97,9 +97,9 @@ const Hero = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: false }}
-          src={my}
+          src={IAm}
           alt=""
-          className="max-w-full sm:max-w-[401px] rounded-full"
+          className="max-w-full sm:max-w-[401px] rounded-[100px]"
         />
       </div>
 
